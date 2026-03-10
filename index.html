@@ -296,35 +296,23 @@ textarea.form-input { resize: vertical; min-height: 90px; }
     </div>
 
     <div class="photo-slots">
-      <div class="photo-slot" id="slot-0" onclick="document.getElementById('file-0').click()">
-        <div class="slot-overlay"><span>Changer</span></div>
-        <div class="slot-icon">📷</div>
-        <div class="slot-label">Photo principale</div>
-        <button class="slot-remove" onclick="removePhoto(event,0)">✕</button>
-        <input type="file" id="file-0" accept="image/*" onchange="loadPhoto(0,this)">
-      </div>
-      <div class="photo-slot" id="slot-1" onclick="document.getElementById('file-1').click()">
-        <div class="slot-overlay"><span>Changer</span></div>
-        <div class="slot-icon">📷</div>
-        <div class="slot-label">Photo du quotidien</div>
-        <button class="slot-remove" onclick="removePhoto(event,1)">✕</button>
-        <input type="file" id="file-1" accept="image/*" onchange="loadPhoto(1,this)">
-      </div>
-      <div class="photo-slot" id="slot-2" onclick="document.getElementById('file-2').click()">
-        <div class="slot-overlay"><span>Changer</span></div>
-        <div class="slot-icon">📷</div>
-        <div class="slot-label">Photo sport / activité</div>
-        <button class="slot-remove" onclick="removePhoto(event,2)">✕</button>
-        <input type="file" id="file-2" accept="image/*" onchange="loadPhoto(2,this)">
-      </div>
-      <div class="photo-slot" id="slot-3" onclick="document.getElementById('file-3').click()">
-        <div class="slot-overlay"><span>Changer</span></div>
-        <div class="slot-icon">📷</div>
-        <div class="slot-label">Autre photo</div>
-        <button class="slot-remove" onclick="removePhoto(event,3)">✕</button>
-        <input type="file" id="file-3" accept="image/*" onchange="loadPhoto(3,this)">
-      </div>
-    </div>
+  <div class="photo-slot">
+    <img class="slot-img" src="https://lilikarantez.github.io/photo-pegase/pegase1.jpg" alt="Photo principale">
+    <div class="slot-label">Photo principale</div>
+  </div>
+  <div class="photo-slot">
+    <img class="slot-img" src="https://lilikarantez.github.io/photo-pegase/pegase2.jpg" alt="Photo du quotidien">
+    <div class="slot-label">Photo du quotidien</div>
+  </div>
+  <div class="photo-slot">
+    <img class="slot-img" src="https://lilikarantez.github.io/photo-pegase/pegase5.jpg" alt="Photo sport / activité">
+    <div class="slot-label">Photo sport / activité</div>
+  </div>
+  <div class="photo-slot">
+    <img class="slot-img" src="https://lilikarantez.github.io/photo-pegase/pegase7.jpg" alt="Autre photo">
+    <div class="slot-label">Autre photo</div>
+  </div>
+</div>
 
     <div class="photos-cta-hint">Ce profil vous touche ? Faites le premier pas.</div>
 
